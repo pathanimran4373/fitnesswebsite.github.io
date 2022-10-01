@@ -1,0 +1,440 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html {
+    font-size: 55%
+}
+
+.heading {
+    text-align: center;
+    font-size: 25px;
+    
+    text-transform: uppercase;
+    color: #161418;
+    font-weight: 700;
+    
+}
+
+section {
+    padding: 2rem 9%;
+}
+
+#header {
+    background-image: url(images/fitness1.png);
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#logo {
+    font-size: 20px;
+    color: white;
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+#logo span {
+    color: red;
+}
+
+header nav {
+    margin-right: 300px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
+header nav a:hover{
+    color: red;
+}
+
+header #login a {
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+ #login a:hover{
+color: red;
+}
+#login button{
+    border: 1px solid black;
+    padding: 5px;
+    background-color:red;
+}
+#login button:hover{
+background-color: green;
+}
+
+.section2 {
+    display: flex;
+    
+    justify-content:space-evenly;
+    align-items: center;
+
+    background-color:white;
+}
+
+.content {
+     
+    width: 70%;
+   box-sizing: border-box; 
+    text-align: center;
+    position: relative;
+    right: 80px;
+}
+
+.content h2 {
+    font-size: 25px;
+    
+    text-transform: uppercase;
+    color: #161418;
+    font-weight: 700;
+    
+    
+}
+
+.content h6 {
+    padding: 10px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #161418;
+    font-weight: 700;
+    
+}
+
+.content P {
+    
+
+    font-size: 10px;
+    padding: 5px;
+    color: #161418;
+    font-weight: 400;
+
+}
+
+.content button {
+    width: 169px;
+    height: 46px;
+    background-color: #fa7c30;
+    margin-top: 20px;
+    border-radius: 5px;
+    
+}
+.content button a{
+color: white;
+}
+.content button:hover{
+    transform:scale(2,2);
+}
+.image{
+margin-left: 50px;
+
+}
+.image img{
+    
+    width: 100%;
+}
+
+.section3 {
+    background-color: white;
+    
+}
+.section3 p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.boxcontainer{
+    display: flex;
+
+    justify-content:space-evenly;
+    text-align: center;
+    box-sizing: border-box;
+    width:100%
+}
+
+.box {
+    background-color:white;
+    box-shadow: 10px 10px whitesmoke;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .img {
+    width: 100%;
+    object-fit: cover;
+}
+.box h5{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.boxcontainer p{
+    font-size: 15px;
+    padding: 5px;
+    font-weight: 400;
+}
+.box .btn{
+    width: 169px;
+    height: 46px;
+    background-color: #fa7c30;
+    margin-top: 20px;
+    border-radius: 5px;
+    
+}
+.btn:hover{
+    transform:scale(2,2);
+}
+
+.section4 {
+    background-image: url(images/fitness6.jpg);
+width: 100%;
+min-height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.section4 h6{
+font-size: 15px;
+font-weight: bold;
+color: red;
+}
+.section4 h3{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    color: red;
+}
+.section4 .btn{
+    width: 169px;
+    height: 46px;
+    background-color: #fa7c30;
+    margin-top: 15px;
+    border-radius: 5px;
+    
+}
+.section5 #expert_trainer{
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}
+.section5 #expert_trainer h3{
+font-size: 25px;font-weight: 800;
+}
+.section5 #expert_trainer p{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px
+}
+.boxcontainer span{
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px
+}
+.section6_content{
+display: flex;
+
+justify-content: space-between;
+align-items: center;
+}
+
+#img-one img{
+    height: 300px;
+    width: 500px;
+}
+#img-two img{
+    height: 300px;
+    width: 500px;
+}
+.one{
+    text-align: center;
+    margin: 10px;
+}
+
+.one h5{
+    font-size: 20px;
+    text-transform: uppercase;
+   line-height: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.one p{
+    
+    
+    font-size: 14px;
+    line-height: 30px;
+    padding-top: 20px;
+    font-weight: 400;
+    
+}
+.one button{
+    width: 169px;
+    height: 46px;
+    background-color: #fa7c30;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+#footer {
+    display: flex;
+    justify-content: center;
+    background-color: #161418;
+    color: white;
+    margin-top: 10px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    box-sizing: border-box;
+
+}
+.footer .footer_content{
+   
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.footer h5{
+    font-size: 20px;
+    text-transform: uppercase;
+   line-height: 30px;
+    font-weight: 700;
+    
+}
+.footer h5 span{
+
+    color:#fa7c30;
+}
+
+.footer p{
+    width: 400px;
+    height: 80px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 29px;
+}
+ .footer .social_icon{
+font-size: 15px;
+color: red;
+
+margin-top: 29px;
+ }
+ .footer .social_icon i:hover{
+    transform: scale(2,2);
+ }
+ .social_icon i{
+    padding-left: 15px;
+ }
+ .social_icon span{
+    color: white;
+ }
+ .subscribe_btn input{
+    width: 200px;
+    height: 35px;
+    
+    margin-top: 15px;
+    border-radius: 5px;
+ }
+ .subscribe_btn button{
+    width: 100px;
+    height: 35px;
+    background-color: #fa7c30;
+    margin-top: 15px;
+    border-radius:0px 5px 5px 0px;
+    position: relative;
+    right: 20px;
+ }
+ .subscribe_btn button:hover{
+    background-color: red;
+ }
+ .footer-content2{
+    margin-top:100px;
+    margin-left: 20px;
+ }
+ .footer-content2 h5{
+    font-size: 20px;
+    text-transform: uppercase;
+   line-height: 30px;
+    font-weight: 700;
+    
+ }
+ .box1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: center;
+    margin-top: 10px;
+ }
+ .box1 img{
+margin-top: 15px;
+ }
+ .box1 p{
+    font-size: 14px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+ }
+.content3{
+    margin-top: 100px;
+    margin-left: 15px;
+}
+.content3 h5{
+    font-size: 20px;
+    text-transform: uppercase;
+   line-height: 30px;
+    font-weight: 700;
+}
+.content3 img{
+margin-top: 25px;
+}
+.content3 a{
+    font-size: 14px;
+    line-height: 30px;
+    color:red;
+    font-weight: 400;
+}
+.content3 a:hover{
+    color: white;
+}
